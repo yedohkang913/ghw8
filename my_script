@@ -1,0 +1,68 @@
+#BODY
+push
+move
+225 225 0
+rotate
+y -30
+box
+-75 100 25 175 225 75
+#HEAD
+push
+move
+0 150 0
+rotate
+y 90
+sphere
+0 0 0 50
+pop
+#juggling balls
+push
+move
+0 240 0
+rotate
+y 90
+sphere
+0 0 0 30
+pop
+#LEFT LEG
+push
+move
+-80 -125 0
+box
+0 0 15 25 95 55
+pop
+#RIGHT LEG
+push
+move
+105 -125 0
+box
+-25 0 15 25 95 55
+#RIGHT ARM
+push
+move
+50 267 0
+rotate
+x -45
+box
+0 0 40 40 100 80
+#juggling balls
+push
+move
+0 100 0
+rotate
+y 90
+sphere
+0 0 0 30
+pop
+#juggling balls
+push
+move
+-375 75 0
+rotate
+y 90
+sphere
+0 0 0 30
+pop
+display
+save
+random.png
